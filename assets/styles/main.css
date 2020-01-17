@@ -1,9 +1,23 @@
-*{
-    margin:0px;
-    padding:0px;
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
-body{
-    font-family:'IBM Plex Mono';
+body {
+  font-family: IBM Plex Mono;
 }
 
+.todo__inps {
+  border: 1px solid red;
+}
+.todo__inps .todo__title {
+  border: 1px solid blue;
+}
+.todo__inps .todo__text-input {
+  border: 1px solid black;
+}
+.todo__inps .todo__add-btn {
+  border: 1px solid green;
+}
+
+/*# sourceMappingURL=styles/main.css.map */
