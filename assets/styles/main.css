@@ -12,30 +12,72 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #f2f2f2;
 }
 
 .todo {
-  border: 1px solid yellow;
   width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .todo .todo__inps {
   padding: 20px 0px 20px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
 }
 .todo .todo__inps .todo__text-input {
-  border: 1px solid black;
-  margin: 10px;
+  margin-right: 30px;
+  border: none;
+  padding: 20px 20px 20px 30px;
+  border-radius: 32px;
+  font-family: IBM Plex Mono;
+  background: #f2f2f2;
+  outline: none;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), -4px -6px 10px white;
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1), -1px -1px 1px white;
 }
 .todo .todo__inps .todo__add-btn {
-  border: 1px solid green;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  background: #f2f2f2;
+  outline: none;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), -4px -6px 10px white;
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.todo .todo__inps .todo__add-btn span {
+  font-size: 20px;
+  color: #f2f2f2;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1), -1px -1px 1px white;
 }
 .todo .todo__container {
-  width: 500px;
+  width: 380px;
   height: 500px;
-  border: 1px solid indianred;
+  border-radius: 32px;
+  box-shadow: 4px 4px 53px rgba(0, 0, 0, 0.06), -14px -14px 30px white;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.todo .todo__container .todo__text-outer {
+  width: 60%;
+  padding: 30px;
+  border-radius: 32px;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.06), -4px -6px 10px white;
+  color: #fff;
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=styles/main.css.map */
