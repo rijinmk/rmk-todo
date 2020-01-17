@@ -3,19 +3,37 @@
     margin:0px;
 }
 
-body{
-    font-family:IBM Plex Mono;
+html, body{
+    height:100%;
 }
 
-.todo__inps{
-    border:1px solid red;
-    .todo__title{
-        border:1px solid blue;
+body{
+    font-family:IBM Plex Mono;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo{
+    border:1px solid yellow;
+    width:500px;
+    .todo__inps{
+        padding:20px 0px 20px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:1px solid red;
+        .todo__text-input{
+            border:1px solid black;
+            margin:10px;
+        }
+        .todo__add-btn{
+            border:1px solid green;
+        }
     }
-    .todo__text-input{
-        border:1px solid black;
-    }
-    .todo__add-btn{
-        border:1px solid green;
+    .todo__container{
+        width:500px;
+        height:500px;
+        border:1px solid indianred;
     }
 }
