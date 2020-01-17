@@ -36,10 +36,15 @@ body {
   font-family: IBM Plex Mono;
   background: #f2f2f2;
   outline: none;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), -4px -6px 10px white;
   font-size: 20px;
   color: #fff;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1), -1px -1px 1px white;
+  border: 1px solid #fff;
+  transition: box-shadow 0.5s, border 0.5s;
+}
+.todo .todo__inps .todo__text-input:focus {
+  border: 1px solid transparent;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), -4px -6px 10px white;
 }
 .todo .todo__inps .todo__add-btn {
   border: none;
@@ -47,13 +52,18 @@ body {
   border-radius: 50%;
   background: #f2f2f2;
   outline: none;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), -4px -6px 10px white;
   width: 60px;
   height: 60px;
   vertical-align: middle;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid #fff;
+  transition: box-shadow 0.5s, border 0.5s;
+}
+.todo .todo__inps .todo__add-btn:hover {
+  border: 1px solid transparent;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), -4px -6px 10px white;
 }
 .todo .todo__inps .todo__add-btn span {
   font-size: 20px;
@@ -64,20 +74,25 @@ body {
   width: 380px;
   height: 500px;
   border-radius: 32px;
-  box-shadow: 4px 4px 53px rgba(0, 0, 0, 0.06), -14px -14px 30px white;
   margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border: 1px solid #fff;
 }
 .todo .todo__container .todo__text-outer {
   width: 60%;
   padding: 30px;
   border-radius: 32px;
-  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.06), -4px -6px 10px white;
   color: #fff;
   margin-bottom: 30px;
+  border: 1px solid #fff;
+  transition: box-shadow 0.5s, border 0.5s;
+}
+.todo .todo__container .todo__text-outer:hover {
+  border: 1px solid transparent;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.06), -4px -6px 10px white;
 }
 
 /*# sourceMappingURL=styles/main.css.map */
